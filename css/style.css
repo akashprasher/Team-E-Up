@@ -1,7 +1,23 @@
+/* Importing fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+/* Coloring Heading */
+.green-heading {
+    color: #036b61;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.green-heading-p {
+    color: #036b61;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 22px;
 }
 
 /* Navigation Bar using Bootstrap */
@@ -32,20 +48,19 @@ nav {
     height: 100vh;
     width: 100%;
     background-color: #f2f2f2;
-    /* transition: ease-in 1s; */
 }
 
-.div-nav-mob{
+.div-nav-mob {
     padding-top: 50% !important;
 }
 
-.a-col-br{
+.a-col-br {
     color: #614230;
     font-size: 18px !important;
     font-weight: bold;
 }
 
-nav{
+nav {
     z-index: 1;
 }
 
@@ -62,7 +77,7 @@ nav{
 /* End for Navigation Bar */
 
 /* Footer */
-footer{
+footer {
     background: #035951;
     color: #fff;
 }
@@ -85,7 +100,7 @@ footer{
     font-weight: lighter;
 }
 
-.hide-in-mob{
+.hide-in-mob {
     display: none;
 }
 
@@ -93,25 +108,24 @@ footer{
 
 /* for index.html */
 
-* Beginning of Carousel Section */
-
-
+/* Beginning of Carousel Section */
 .carousel {
     height: 600px;
 }
 
 /* Beginning of Dark overlay for slide2 image */
-.overlay{
+.overlay {
     width: 100%;
     height: 600px;
     background: black;
     overflow: hidden;
 }
 
-.overlay picture img{
+.overlay picture img {
     object-fit: cover;
     opacity: 0.3;
 }
+
 /* End of Dark overlay for slide2 image */
 
 .d-block {
@@ -124,7 +138,8 @@ footer{
     font-size: 1.5rem;
 }
 
-.welcome-box-container, .third-box-container {
+.welcome-box-container,
+.third-box-container {
     width: 100%;
     height: 80%;
     margin-top: 7%;
@@ -132,7 +147,8 @@ footer{
     position: fixed;
 }
 
-.welcome-box, .third-box {
+.welcome-box,
+.third-box {
     display: flex;
     margin: 8.5% 20%;
     height: 70%;
@@ -144,12 +160,12 @@ footer{
     letter-spacing: 0.3em;
 }
 
-.third-box{
+.third-box {
     margin: 10% 20%;
     width: 50%;
 }
 
-.welcome-box-text{
+.welcome-box-text {
     color: #FFF;
     margin-bottom: 3%;
     font-size: 1.1rem;
@@ -169,8 +185,8 @@ footer{
 }
 
 .hotel-text {
-   color: #06C7B4;
-   font-family: 'Crimson Text', serif; 
+    color: #06C7B4;
+    font-family: 'Crimson Text', serif;
 }
 
 .book-button {
@@ -198,113 +214,32 @@ footer{
 
 /* End Index */
 
-/* For Aboutus */
-
-.container-fluid{
-    background-color: #F2F2F2;
-    width:100%;
-    max-height: 500px;
-}
-
-/*   overlay on the left*/
-.desktop .box{
-  float:right;
-  padding-top:20em;
-  padding-bottom:20em;
-  background-color:rgba(166, 113, 83, 0.15);
-  margin-top:1em;
-  width:60%; 
-}
-
-/*  image*/
-.desktop{
-padding-right:10%;
-}
-.desktop .right-image{
-margin-top:3em;
-background-image: url("images/picture1.svg");
-background-position:center;
-background-repeat:none;
-background-size:cover;
-min-height: 400px;
-max-width:400px;
-position:relative;
-}
-
-/* left arrow */
-.vector{
-/* margin-top:90%; */
-padding-right:1%;
-float:right;
-}
-
-/*text container*/
-.text{ 
-  margin-top:15%;
-  padding-left:20%;
-}
-
-/* about hotel gryffindor*/
-.text h4{
-color:#595959;
-font-weight: bold;
-font-size:14px;
-}
-
-/*border*/
-.border{
-  border: 2px  solid #A67153;
-  margin-right:88%;
-}
-
-/*h5 heading*/
-.text h5{
-color:#036158;
-font-weight: bold;
-font-family: crimson text;
-font-size:18px;
-}
-
-/*paragraph*/
-.text p{
-color:#8C8C8C;
-font-size: 14px;
-}
-
-/* End About us */
-
-.green-heading{
-    color: #036b61;
-    font-family: "Crimson Text", serif;
-    font-weight: 700;
-    font-size: 28px;
-}
 
 /*This is the design for smaller screens*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
     /* for about us */
-  .mobile{
-    display:none;
+    .mobile {
+        display: none;
 
-  }
+    }
 
-  .text{
-    padding-left:5%;
-  }
+    .text {
+        padding-left: 5%;
+    }
 
-  .vector{
-  
-    padding-right:1%;
-    padding-left:85%;
-    position:absolute;
-    
-  }
-  /* end about us */
- 
+    .vector {
+        padding-right: 1%;
+        padding-left: 40%;
+        position: absolute;
+        top: 300px;
+    }
+
+    /* end about us */
+
 }
 
-@media (min-width: 576px){
+@media (min-width: 576px) {
     .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 1rem;
         padding-left: 1rem;
@@ -318,25 +253,26 @@ font-size: 14px;
         margin: 25% 5%;
     }
 
-    .third-box{
+    .third-box {
         width: 80%;
-        margin: 30% 10%; 
+        margin: 30% 10%;
     }
 
-    .overlay picture source{
+    .overlay picture source {
         object-fit: cover;
         opacity: 0.3;
     }
 
-    .hotel-text{
+    .hotel-text {
         font-size: 2.3rem;
     }
 
-    .book-button{
+    .book-button {
         width: 50%;
         margin-top: 10%;
     }
-    .m-text-center{
+
+    .m-text-center {
         text-align: center;
     }
 
@@ -356,21 +292,21 @@ font-size: 14px;
         margin: 30% 5%;
     }
 
-    .third-box{
+    .third-box {
         width: 80%;
-        margin: 30% 10%; 
+        margin: 30% 10%;
     }
 
-    .overlay picture source{
+    .overlay picture source {
         object-fit: cover;
         opacity: 0.3;
     }
 
-    .hotel-text{
+    .hotel-text {
         font-size: 1.7rem;
     }
 
-    .book-button{
+    .book-button {
         width: 50%;
         margin-top: 10%;
     }
@@ -378,5 +314,3 @@ font-size: 14px;
 
 
 /* for booking */
-
-  

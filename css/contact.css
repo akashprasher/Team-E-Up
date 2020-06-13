@@ -1,29 +1,35 @@
-.facilities-section{
+.contact-section {
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
-label{
+label {
     padding-top: 1em;
     color: #8c8c8c;
 }
+
 .btn {
-    width: 70%;
+    width: 49%;
     background: #035951;
     border: none;
+    color: #fff;
 }
-.btn:hover{
+
+.btn:hover {
     background: #036b61;
 }
+
 .in {
     color: #c78863;
 }
-.h2-c{
+
+.h2-c {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     color: #595959;
 }
+
 .shadow-c {
     height: 4px;
     width: 80px;
@@ -31,16 +37,17 @@ label{
     /* box-shadow: 0px 2px black;    */
 }
 
-.input{
+.input {
+    width: 49%;
     border: none;
     box-shadow: 0px 2px #d9d9d9;
 }
 
-.input:focus{
+.input:focus {
     border: none;
 }
 
-p{
+p {
     color: #595959;
 }
 
@@ -53,8 +60,18 @@ p.cpyr {
     border: none;
 }
 
-@media (max-width: 576px){
-    .booking-section{
+.fa-a-icon {
+    color:#595959;
+}
+
+.fa-a-icon:hover {
+    color:#595959;
+}
+
+
+
+@media (max-width: 576px) {
+    .booking-section {
         margin-top: 50px;
         margin-bottom: 50px;
     }
