@@ -233,7 +233,7 @@ position:relative;
 
 /* left arrow */
 .vector{
-margin-top:90%;
+/* margin-top:90%; */
 padding-right:1%;
 float:right;
 }
@@ -273,11 +273,12 @@ font-size: 14px;
 
 /* End About us */
 
-/* booking */
-
-
-
-/* end booking */
+.green-heading{
+    color: #036b61;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-size: 28px;
+}
 
 /*This is the design for smaller screens*/
 @media screen and (max-width: 768px){

@@ -6,148 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/aboutus.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Hotel Gryffindor - About</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "poppins";
-        }
-
-        .container-fluid {
-            background-color: #F2F2F2;
-            width: 100%;
-            max-height: 500px;
-        }
-
-        /*   overlay on the left*/
-        .desktop .box {
-            float: right;
-            padding-top: 150px;
-            padding-bottom: 20em;
-            background-color: rgba(166, 113, 83, 0.15);
-            margin-top: 1em;
-            width: 60%;
-            margin-bottom: 1em;
-        }
-
-        /*  image*/
-        .desktop {
-            padding-right: 10%;
-        }
-
-        .desktop .right-image {
-            margin-top: 3em;
-            background-image: url("images/picture1.svg");
-            background-position: center;
-            background-repeat: none;
-            background-size: cover;
-            min-height: 400px;
-            max-width: 400px;
-            position: relative;
-        }
-
-        /* left arrow */
-        .vector {
-            margin-top: 90%;
-            padding-right: 1%;
-            float: right;
-        }
-
-        /*text container*/
-        .text {
-            margin-top: 15%;
-            padding-left: 20%;
-        }
-
-        /* about hotel gryffindor*/
-        .text h4 {
-            color: #595959;
-            font-weight: bold;
-            font-size: 14px;
-        }
-
-        /*border*/
-        .border {
-            border: 2px solid #A67153;
-            margin-right: 88%;
-        }
-
-        /*h5 heading*/
-        .text h5 {
-            color: #036158;
-            font-weight: bold;
-            font-family: crimson text;
-            font-size: 18px;
-        }
-
-        /*paragraph*/
-        .text p {
-            color: #8C8C8C;
-            font-size: 14px;
-        }
-
-
-
-        /* media query ============================= */
-        /*for tablets and pc*/
-        @media screen and (min-width:767px) {
-
-            .mobile {
-                display: none;
-
-            }
-
-            .text {
-                padding-left: 5%;
-            }
-
-            .vector {
-
-                padding-right: 1%;
-                padding-left: 85%;
-                position: absolute;
-
-            }
-
-        }
-
-        /* for phones*/
-        @media screen and (max-width:767px) {
-
-            .desktop {
-                display: none;
-            }
-
-            .text {
-                padding: 10%;
-            }
-
-            .container-fluid {
-                max-height: 100%;
-            }
-
-            .mobile .img-responsive {
-                padding-top: 10%;
-                margin-bottom: -190px;
-            }
-
-            .vector {
-                margin-top: 60%;
-                padding-right: 5%;
-                position: relative;
-            }
-
-            h5 {
-                padding-top: 50px;
-            }
-        }
-    </style>
     <script src="https://kit.fontawesome.com/25fffa082a.js" crossorigin="anonymous"></script>
     <script src="./scripts/main.js"></script>
 </head>
@@ -208,7 +69,49 @@
         </div>
     </div>
 
-    <div class="container">
+    <main>
+        <div class="container">
+            <div class="about-section">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="heading">
+                            <h2 class="h2-c">About Us</h2>
+                        </div>
+                        <div class="shadow-c float-left">&nbsp;</div>
+                        <div class="mt-4">
+                            <h4 class="green-heading pt-5">We give experiences that last a lifetime</h4>
+                            <p class="text-justify pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Curabitur suscipit neque at
+                                sollicitudin euismod. Nulla feugiat massa in nisl malesuada dignissim. Sed ut ipsum
+                                urna.
+                                Etiam interdum, velit vitae dictum gravida, arcu erat malesuada arcu, nec congue sapien
+                                mauris in leo. Sed ultrices accumsan mattis. Nulla facilisi. Donec elit risus, semper
+                                nec
+                                augue eu, luctus fringilla purus. Aliquam malesuada risus quis quam ultricies, vel
+                                ullamcorper lacus ultricies.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm">
+
+                    </div> -->
+                    <div class="col-sm text-center col-c">
+                        <div class="mt-auto mb-auto pt-4">
+                            <img class="img-fluid hero-img" src="./images/picture1.svg" alt="">
+                        </div>
+                        <div class="right-image">
+                            <img src="./images/Vector.svg" class="vector">
+                        </div>
+                        <!-- <img class="img-fluid hero-img" src="./images/picture1.svg" alt=""> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6">
 
@@ -241,7 +144,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Footer -->
 
