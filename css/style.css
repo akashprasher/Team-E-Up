@@ -58,6 +58,42 @@ nav {
     color: #614230;
     font-size: 18px !important;
     font-weight: bold;
+    /*  */
+    text-transform: none;
+    margin: 0 20px;
+    /* opacity: 0.0; */
+    animation: fadeIn ease 0.5s;
+    -webkit-animation: fadeIn ease 0.5s;
+    /*  */
+}
+
+/*  */
+@keyframes fadeIn {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/*  */
+
+#navbarNav{
+    opacity: 0;
+    animation: fadeInn ease 1s;
+    -webkit-animation: fadeInn ease 1s;
+}
+
+@keyframes fadeInn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 nav {
