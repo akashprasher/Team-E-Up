@@ -96,7 +96,7 @@ nav {
 .nav-close {
     float: right;
     padding-top: 10px;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 /* End for Navigation Bar */
