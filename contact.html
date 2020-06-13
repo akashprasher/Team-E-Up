@@ -50,6 +50,7 @@
             </div>
         </div>
     </nav>
+    <!-- Navigation Bar for Mobile -->
     <div id="topnav" class="d-sm-block d-md-none">
         <a class="ml-auto a-col-br nav-close" href="javascript:void(0)" onclick="closeNav()">&times;</a>
         <div class="p-5 text-center div-nav-mob">
@@ -78,18 +79,23 @@
         <div class="container">
             <div class="contact-section">
                 <div class="heading">
+                    <!-- Heading -->
                     <h2 class="h2-c">LOCATION & CONTACT</h2>
                 </div>
                 <div class="shadow-c float-left">&nbsp;</div>
+                <!-- div for searching loacation -->
                 <div class="mt-5">
                     <input class="input mt-3" type="text" placeholder="Enter your current location"><br
                         class="d-sm-block d-md-none">
                     <button class="btn mt-3">Get Directions</button>
                 </div>
+                <!-- div for map in case want to use it with Jquery -->
                 <div id="map"></div>
+                <!-- An image for demonstartion purpose -->
                 <div class="mt-5">
                     <img class="img-fluid" src="./images/map.png" alt="">
                 </div>
+                <!-- Address and contact details -->
                 <div>
                     <div class="row mt-5">
                         <div class="col-sm-6">
@@ -99,9 +105,6 @@
                                 consectetur adipisicing elit.
                             </p>
                         </div>
-                        <!-- <div class="col-sm-2"> -->
-                        <!-- <h3 class="green-heading-p">Email Address</h3> -->
-                        <!-- </div> -->
                         <div class="col-sm-6">
                             <h3 class="green-heading-p">Contact Details</h3>
                             <p>
@@ -112,11 +115,12 @@
                             </p>
                         </div>
                     </div>
+                    <!-- for for contact -->
                     <div class="mt-5">
                         <h3 class="green-heading-p">Write Us</h3>
                     </div>
                     <div class="p-2">
-                        <form action="">
+                        <form action=""> <!-- Please speacify the action -->
                             <label for="email">Enter Your Email</label><br>
                             <input class="form-control" type="text" placeholder="Enter your email">
                             <label for="message">Leave a Message For Us</label><br>

@@ -58,7 +58,7 @@ nav {
     color: #614230;
     font-size: 18px !important;
     font-weight: bold;
-    /*  */
+    /* Animation for navigation bar in mobile */
     text-transform: none;
     margin: 0 20px;
     animation: fadeIn ease 2s;
@@ -66,7 +66,7 @@ nav {
     /*  */
 }
 
-/*  */
+/* calling keyframe for fadeIn */
 @keyframes fadeIn {
     from {
         transform: scale(1.1);
