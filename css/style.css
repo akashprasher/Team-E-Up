@@ -26,6 +26,10 @@ nav {
     background-color: #f2f2f2;
 }
 
+.navbar-brand {
+    margin-right: 0rem;
+}
+
 .navbar-light .navbar-brand {
     color: #035951;
     font-weight: bold;
@@ -243,6 +247,10 @@ footer {
     .mobile {
         display: none;
 
+    }
+
+    .navbar-brand {
+        padding-left: 1rem;
     }
 
     .text {
