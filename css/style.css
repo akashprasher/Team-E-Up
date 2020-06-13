@@ -61,7 +61,6 @@ nav {
     /*  */
     text-transform: none;
     margin: 0 20px;
-    opacity: 0.0;
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
     /*  */
