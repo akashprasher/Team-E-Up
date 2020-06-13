@@ -75,6 +75,11 @@ p.cpyr {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    .input {
+        width: 90%;
+        border: none;
+        box-shadow: 0px 2px #d9d9d9;
+    }
 }
 
 /* @media (min-width: 576px){
